@@ -91,31 +91,31 @@ A organização do projeto reflete a divisão lógica das etapas do pipeline:
 PythonProject/
 │
 ├── data/
-│ ├── raw/ → Dados brutos dos sensores (.npy)
-│ ├── processed/ → Dados consolidados e tratados
+│ - raw/ → Dados brutos dos sensores (.npy)
+│ - processed/ → Dados consolidados e tratados
 │
 ├── models/
-│ ├── rf_model.pkl → Modelo Random Forest treinado
-│ └── metrics/ → Relatórios e métricas de avaliação
+│ - rf_model.pkl → Modelo Random Forest treinado
+│ - metrics/ → Relatórios e métricas de avaliação
 │
 ├── src/
-│ ├── preprocessing.py → Funções de limpeza e normalização dos dados
-│ ├── features.py → Extração de características
-│ ├── train_model.py → Treinamento do modelo
-│ ├── predict.py → Geração de previsões
-│ └── utils.py → Funções auxiliares
+│ - preprocessing.py → Funções de limpeza e normalização dos dados
+│ - features.py → Extração de características
+│ - train_model.py → Treinamento do modelo
+│ - predict.py → Geração de previsões
+│ - utils.py → Funções auxiliares
 │
 ├── notebooks/
-│ ├── ExploratoryAnalysis.ipynb → Análises exploratórias dos dados
-│ └── ModelEvaluation.ipynb → Avaliação das métricas e visualização
+│ - ExploratoryAnalysis.ipynb → Análises exploratórias dos dados
+│ - ModelEvaluation.ipynb → Avaliação das métricas e visualização
 │
 ├── outputs/
-│ ├── plots/ → Gráficos gerados durante o treinamento
-│ └── reports/ → Relatórios de execução
+│ - plots/ → Gráficos gerados durante o treinamento
+│ - reports/ → Relatórios de execução
 │
-├── requirements.txt → Dependências do projeto
-├── main.py → Script principal de execução do pipeline
-└── README.md → Documento de descrição e instruções
+- requirements.txt → Dependências do projeto
+- main.py → Script principal de execução do pipeline
+- README.md → Documento de descrição e instruções
 
 
 ---
@@ -166,8 +166,7 @@ Esses resultados comprovam a eficiência do pipeline proposto na predição de e
 👨‍💻 Autores e Créditos
 
 Autor: Laércio Pioli
-Orientação: Prof. Douglas Macedo
 Instituição: FIESC / SENAI
 Área: Inteligência Artificial Aplicada à Indústria
 
-📧 Contato: laerciopioli@gmail.com
+📧 Contato: laerciopiolijr@gmail.com
