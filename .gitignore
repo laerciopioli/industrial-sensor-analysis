@@ -1,0 +1,23 @@
+# Ambiente virtual
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+data/raw/
+data/processed/
+models/
+
+
+# Arquivos temporários
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Notebooks temporários
+.ipynb_checkpoints/
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/

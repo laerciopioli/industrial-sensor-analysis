@@ -1,0 +1,33 @@
+C:\Users\Laercio\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\Laercio\PycharmProjects\PythonProject\src\evaluate.py 
+ Carregando dataset de features...
+ Dataset carregado com shape: (50000, 85)
+🔍 Carregando modelo treinado...
+ Modelo carregado com sucesso de: C:\Users\Laercio\PycharmProjects\PythonProject\models\rf_baseline.joblib
+
+ Executando validação cruzada...
+
+ Relatório de classificação (cross-validation):
+              precision    recall  f1-score   support
+
+    Classe A       0.61      0.61      0.61     10000
+    Classe B       0.62      0.65      0.64     10000
+    Classe C       0.59      0.61      0.60     10000
+    Classe D       0.58      0.58      0.58     10000
+    Classe E       0.57      0.53      0.55     10000
+
+    accuracy                           0.60     50000
+   macro avg       0.60      0.60      0.60     50000
+weighted avg       0.60      0.60      0.60     50000
+
+ F1 macro: 0.5951
+ Matriz de confusão salva em: C:\Users\Laercio\PycharmProjects\PythonProject\outputs\plots\confusion_matrix_cv.png
+C:\Users\Laercio\PycharmProjects\PythonProject\src\evaluate.py:74: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=feat_imp_df.head(20), x="importance", y="feature", palette="viridis")
+ Gráfico de importância de features salvo em: C:\Users\Laercio\PycharmProjects\PythonProject\outputs\plots\feature_importance_cv.png
+
+ Avaliação concluída com sucesso!
+
+Process finished with exit code 0
